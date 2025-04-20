@@ -6,6 +6,10 @@ Version: 1.0
 Author: Rob (Custom Build)
 */
 
+define('ENABLE_MMP_PRIVACY_NOTICE', true); // Optional — only for MMP clients
+define('ACTIVE_ANALYTICS_VENDOR', 'analyticswp'); // Options: 'analyticswp', 'google', 'matomo'
+
+
 defined('ABSPATH') || exit;
 
 define('SCC_VERSION', '1.0');
